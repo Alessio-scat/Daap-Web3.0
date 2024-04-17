@@ -11,3 +11,12 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
+
+# Command lunch contract and test
+
+```shell
+npx hardhat init
+npm install --save-dev hardhat
+npx hardhat compile
+npx hardhat test
+```
